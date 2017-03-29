@@ -42,7 +42,7 @@ h2{
     0%   {background-color:red; left:450px; top:170px;}
     25%  {background-color:yellow; left:800px; top:170px;}
     50%  {background-color:blue; left:800px; top:380px;}
-    75%  {background-color:green; left:450px; top:380px;}
+    75%  {background-color:pink; left:450px; top:380px;}
     100% {background-color:red; left:450px; top:170px;}
 }
 #second {
@@ -62,7 +62,7 @@ h2{
     0%   {background-color:red; left:450px; top:170px;}
     25%  {background-color:yellow; left:800px; top:170px;}
     50%  {background-color:blue; left:800px; top:380px;}
-    75%  {background-color:green; left:450px; top:380px;}
+    75%  {background-color:pink; left:450px; top:380px;}
     100% {background-color:red; left:450px; top:170px;}
 }
 
