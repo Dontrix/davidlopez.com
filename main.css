@@ -15,14 +15,12 @@ body {
 
 h1 {
   font-family:roboto;
-  text-shadow: 5px 5px 5px White;
   font-size: 80px;
   text-align: center;
   margin-top:30px;
 }
 h2{
   font-family:roboto;
-  text-shadow: 5px 5px 5px White;
   text-align: center;
   margin-top:-50px;
 }
