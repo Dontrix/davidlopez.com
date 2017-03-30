@@ -6,7 +6,11 @@ body {
   height:900px;
 }
 @keyframes color {
-
+    0%   {background-color:pink;}
+    25%  {background-color:red;}
+    50%  {background-color:yellow;}
+    75%  {background-color:blue;}
+    100% {background-color:pink;}
 }
 
 h1 {
