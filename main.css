@@ -39,10 +39,10 @@ h2{
 
 @keyframes david {
     0%   {background-color:red; left:450px; top:170px;}
-    25%  {background-color:yellow; left:800px; top:170px;}
+    25%  {background-color:purple; left:800px; top:170px;}
     50%  {background-color:blue; left:800px; top:380px;}
     75%  {background-color:pink; left:450px; top:380px;}
-    100% {background-color:red; left:450px; top:170px;}
+    100% {background-color:orange; left:450px; top:170px;}
 }
 #second {
   width: 100px;
@@ -59,10 +59,10 @@ h2{
 }
 @keyframes new {
     0%   {background-color:red; left:450px; top:170px;}
-    25%  {background-color:yellow; left:800px; top:170px;}
+    25%  {background-color:purple; left:800px; top:170px;}
     50%  {background-color:blue; left:800px; top:380px;}
     75%  {background-color:pink; left:450px; top:380px;}
-    100% {background-color:red; left:450px; top:170px;}
+    100% {background-color:orange; left:450px; top:170px;}
 }
 
 #third {
