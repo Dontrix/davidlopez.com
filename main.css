@@ -17,19 +17,19 @@ h1 {
   font-size: 80px;
   text-align: center;
   margin-top:30px;
-  text-shadow:1px 0px 15px grey;
+  text-shadow:1px 0px 15px red;
 }
 h2{
   font-family:roboto;
   text-align: center;
   margin-top:-50px;
-  text-shadow:1px 0px 15px grey;
+  text-shadow:1px 0px 15px white;
 }
  div {
   width: 100px;
   height: 100px;
   position: absolute;
-  background-color:red;
+  background-color:white;
   top:170px;
   left:450px;
   animation-name: david;
