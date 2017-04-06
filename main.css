@@ -9,6 +9,13 @@ h2{
   position: absolute;
   top: 50%;
   width: 100%;
+  letter-spacing:1px;
+  word-spacing:5px;
+  font-size:100px;
+  text-shadow:-7px 7px 7px black;
   color:white;
-}  
-    
+  
+} 
+body {
+  background-image: url(https://img.clipartfest.com/0a70f35ca7643f9ec9689493e53e13b4_free-space-4k-wallpaper-free-space-clipart-4k_3840-2160.jpeg)
+}
