@@ -1,21 +1,26 @@
-
-h2{
-  font-family: Roboto, sans-serif;
-  text-align:center;
-  left: 0;
-  line-height: 200px;
-  margin: auto;
-  margin-top: -100px;
-  position: fill;
-  top: 50%;
-  width: 100%;
-  letter-spacing:1px;
-  word-spacing:5px;
-  font-size:100px;
-  text-shadow:-7px 7px 7px black;
-  color:white;
-  
-} 
+h1 {
+  font-size: 100px;
+  text-align: center;
+  font-family:roboto;
+  transition: all ease-in-out 10s;
+  transition: width 2s, transform 2s;
+}
+h1:hover {
+  color: black;
+  border-color: black;
+  font-size: 100px;
+  transform: rotate(360deg);
+}
 body {
-  background-image: url(https://img.clipartfest.com/0a70f35ca7643f9ec9689493e53e13b4_free-space-4k-wallpaper-free-space-clipart-4k_3840-2160.jpeg)
+  animation-name:color;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  height:900px;
+}
+@keyframes color {
+    0%   {background-color:purple;}
+    25%  {background-color:red;}
+    50%  {background-color:yellow;}
+    75%  {background-color:blue;}
+  100% {background-color:purple;}
 }
