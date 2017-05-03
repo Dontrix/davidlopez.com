@@ -25,65 +25,11 @@ h1:hover{
 }
 h2{
   font-family:roboto;
-  text-shadow: 5px 5px 5px grey;
   text-align: center;
   margin-top:-50px;
-}
- div {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  background-color:red;
-  top:170px;
-  left:450px;
-  animation-name: david;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  border-radius: 50px;
-}
-
-@keyframes david {
-    0%   {background-color:red; left:450px; top:170px;}
-    25%  {background-color:yellow; left:800px; top:170px;}
-    50%  {background-color:blue; left:800px; top:380px;}
-    75%  {background-color:green; left:450px; top:380px;}
-    100% {background-color:red; left:450px; top:170px;}
-}
-#second {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  background-color:blue;
-  top:170px;
-  left:450px;
-  animation-name: new;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  border-radius: 50px;
-  animation-delay:2s;
-}
-@keyframes new {
-    0%   {background-color:red; left:450px; top:170px;}
-    25%  {background-color:yellow; left:800px; top:170px;}
-    50%  {background-color:blue; left:800px; top:380px;}
-    75%  {background-color:green; left:450px; top:380px;}
-    100% {background-color:red; left:450px; top:170px;}
-}
-
-#third {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  transition: width 2s;
-  position: absolute;
-}
-
-#third:hover {
-  width:500px;
 }
 h6 {
   font-family:roboto;
   text-align:center;
   margin-top:50px;
-  text-shadow: 2px 2px grey;
 }
