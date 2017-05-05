@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(green, darkgreen);
+  background: linear-gradient(#2EFE2E, #0B610B);
+}  
 
 h1 {
   font-family: 'Oswald', sans-serif;
