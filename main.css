@@ -15,7 +15,7 @@ h1 {
   letter-spacing: 5px;
 }
 h1:hover{
-  transform: rotate(5deg);
+  transform: rotate(3deg);
   font-size:130px;
 }
 h2{
