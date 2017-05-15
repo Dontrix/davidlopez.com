@@ -3,10 +3,60 @@
 <h2>Welcome To My Page<h2>
   <head><link rel="stylesheet" type="text/css" href="main.css"></head>
 <link  href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
-<body> 
-  <a href="http://davidlopez.cf/socialmedia/" target="_blank">Social Media</a>  
+<body>
+  <a href="http://davidlopez.cf/socialmedia/" target="_blank">Social Media</a>
   <div>
-    <p>About / Spotify</p>
+    <p>About / <a id="spotify" href="#">Spotify</a></p>
   </div>
-</body>  
-</html> 
+<style>
+body {
+  background: #2F0B3A;
+}
+
+span {
+  font-family: 'Oswald', sans-serif;
+  font-size: 120px;
+  text-align: left;
+  font-weight: 300;
+  margin-top:10px;
+  transition: all 0.3s cubic-bezier(0.05, 0.06, 0.11, 0.59);
+  color:white;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+}
+span:hover{
+  font-size:130px;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  margin-top:-100px;
+  font-size:40;
+  color:white;
+  margin-top:15;
+}
+a {
+  color:yellow;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: overline;
+}
+div {
+position: absolute; margin: auto;
+top: 0; bottom: 30; left: 575; right: 0;
+width: 650px; height: 500px;
+background-color: black;
+ border-radius:14px;
+}
+p{
+text-align:center;
+color:yellow;
+}
+#spotify:hover {
+  color:blue;
+}
+</stlye>
+</body>
+</html>
