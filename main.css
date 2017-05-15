@@ -37,9 +37,10 @@ position: absolute; margin: auto;
 top: 0; bottom: 30; left: 575; right: 0;
 width: 650px; height: 500px;
 background-color: white;  
- border-radius:15px;
+ border-radius:5px;
 }
 p{
 color:green;
 text-align:center;
+color:yellow;
 }
