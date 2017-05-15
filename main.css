@@ -37,7 +37,7 @@ position: absolute; margin: auto;
 top: 0; bottom: 30; left: 575; right: 0;
 width: 650px; height: 500px;
 background-color: black;  
- border-radius:5px;
+ border-radius:8px;
 }
 p{
 color:green;
