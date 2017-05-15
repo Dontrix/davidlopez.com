@@ -36,7 +36,7 @@ a:hover {
 }
 div {
 position: absolute; margin: auto;
-top: 0; bottom: 675; left: 575; right: 0;
+top: 0; bottom: 800; left: 575; right: 0;
 width: 500px; height: 500px;
 background-color: white;  
  border-radius:15px;
